@@ -1,0 +1,54 @@
+
+@media screen {
+    body {
+        background-color: blue;
+        font-family: 'Courier New', Courier, monospace;
+    }
+
+
+header {
+    background-color: grey;
+    padding: 25px;
+    text-align: center;
+    font-size: medium;
+    color: green;
+
+}
+
+section {
+
+    display: -webkit-flex;
+    display: flex;
+
+
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 1px;
+
+
+}
+
+article {
+    -webkit-box-flex: 3;
+    -ms-flex: auto;
+    flex: auto;
+    background-color: grey;
+
+
+
+}
+
+footer {
+
+
+    background-color: grey;
+    padding: 10px;
+    text-align: center;
+    color: whitesmoke;
+
+
+}
+    
+}
